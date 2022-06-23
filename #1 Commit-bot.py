@@ -20,6 +20,9 @@ driver.implicitly_wait(100)
 id = "YOUR ID"
 password = "YOUR PASSWORD"
 
+write_first = "hello, I'm one-day one-commit bot!"
+write_second = "오늘도 성공이에요!"
+
 #날짜 함수로 저장
 
 x = str(dt.datetime.now())
@@ -45,9 +48,9 @@ driver.find_element_by_css_selector("#repo-content-pjax-container > div > div > 
 
 driver.find_element_by_css_selector("#repo-content-pjax-container > div > div > form.js-blob-form > div > div.breadcrumb.d-flex.flex-shrink-0.flex-items-center.px-3.px-sm-6.px-lg-3 > span > input").send_keys(x)
 
-driver.find_element_by_css_selector("#code-editor > div > pre").send_keys("hello, I'm one-day one-commit bot!")
+driver.find_element_by_css_selector("#code-editor > div > pre").send_keys(write_first)
 
-driver.find_element_by_css_selector("#commit-description-textarea").send_keys("오늘도 성공이에요!")
+driver.find_element_by_css_selector("#commit-description-textarea").send_keys(write_second)
 
 driver.find_element_by_css_selector("#submit-file").click()
 
