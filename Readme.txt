@@ -1,0 +1,1 @@
+https://velog.io/@jwson-automation/1.-1%EC%9D%BC-1%EC%BB%A4%EB%B0%8B-%ED%95%B4%EC%A3%BC%EB%8A%94-%EB%8F%99%EC%83%9D-%EB%A7%8C%EB%93%A4%EA%B8%B0-Python-Git
