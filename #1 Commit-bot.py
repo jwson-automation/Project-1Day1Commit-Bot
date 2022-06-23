@@ -24,7 +24,7 @@ password = "YOUR PASSWORD"
 
 x = str(dt.datetime.now())
 
-#로그인
+#로그인 하기
 driver.find_element_by_name('login').send_keys(id)
 driver.find_element_by_name('password').send_keys(password)
 driver.find_element_by_name('password').send_keys(Keys.ENTER)
